@@ -11,4 +11,5 @@ def setup_logging():
     default_logger = logging.getLogger('default')
     default_logger.setLevel(logging.INFO)
     default_logger.addHandler(stream_log)
+
     return default_logger
